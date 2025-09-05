@@ -1,0 +1,2062 @@
+def compact_files_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, arg):
+    __mypyc_self__ :: comp9.compact_files_gen
+    type, value, traceback, arg, r0, r1 :: object
+    r2 :: comp9.compact_files_env
+    r3 :: int
+    r4 :: object
+    r5 :: bit
+    r6 :: object
+    r7 :: str
+    r8 :: object
+    r9 :: str
+    r10 :: object
+    r11 :: object[2]
+    r12 :: object_ptr
+    r13 :: object
+    r14 :: list
+    r15 :: bool
+    r16 :: list
+    r17 :: dict
+    r18 :: str
+    r19 :: object
+    r20 :: object[1]
+    r21 :: object_ptr
+    r22 :: object
+    r23, r24 :: list
+    r25 :: object
+    r26 :: str
+    r27 :: object
+    r28 :: object[1]
+    r29 :: object_ptr
+    r30 :: object
+    r31 :: int
+    r32 :: list
+    r33, r34, r35, r36, r37 :: object
+    r38 :: list
+    r39 :: object
+    r40 :: str
+    r41 :: object
+    r42 :: object[1]
+    r43 :: object_ptr
+    r44 :: object
+    r45, r46 :: int
+    r47 :: dict
+    r48 :: str
+    r49, r50 :: object
+    r51 :: object[2]
+    r52 :: object_ptr
+    r53 :: object
+    r54 :: int
+    r55 :: bool
+    r56 :: list
+    r57 :: int
+    r58 :: object
+    r59, r60 :: list
+    r61 :: int
+    r62 :: object
+    r63 :: list
+    r64, r65 :: bool
+    r66 :: list
+    r67, r68, r69 :: bool
+    r70 :: list
+    r71, r72 :: bool
+    r73 :: list
+    r74 :: ptr
+    r75 :: native_int
+    r76, r77 :: short_int
+    r78 :: bit
+    r79 :: list
+    r80 :: short_int
+    r81 :: object
+    r82 :: int
+    r83 :: bool
+    r84, r85, r86 :: int
+    r87 :: tuple[int, int]
+    r88 :: list
+    r89 :: object
+    r90 :: i32
+    r91 :: bit
+    r92, r93 :: short_int
+    r94, r95 :: bool
+    r96, r97 :: short_int
+    r98 :: bool
+    r99 :: list
+    r100 :: bool
+    r101 :: list
+    r102 :: bool
+    r103 :: list
+    r104 :: int
+    r105 :: object
+    r106 :: str
+    r107, r108 :: object
+    r109 :: object[2]
+    r110 :: object_ptr
+    r111, r112, r113 :: object
+    r114, r115 :: bool
+    r116, r117 :: object
+    r118 :: tuple[int, int]
+    r119 :: int
+    r120 :: bool
+    r121 :: int
+    r122 :: bool
+    r123, r124, r125 :: int
+    r126 :: tuple[int, int]
+    r127 :: list
+    r128 :: object
+    r129 :: i32
+    r130, r131 :: bit
+    r132 :: list
+    r133, r134 :: int
+    r135, r136, r137, r138, r139 :: object
+    r140 :: list
+    r141 :: bool
+    r142 :: list
+    r143 :: dict
+    r144 :: str
+    r145, r146 :: object
+    r147 :: object[2]
+    r148 :: object_ptr
+    r149, r150 :: object
+    r151, r152 :: bool
+    r153, r154 :: object
+    r155 :: tuple
+    r156 :: bool
+    r157 :: tuple
+    r158 :: object
+    r159 :: tuple[int, int]
+    r160 :: bool
+    r161 :: tuple[int, int]
+    r162, r163 :: int
+    r164 :: bool
+    r165, r166 :: int
+    r167 :: bool
+    r168, r169 :: int
+    r170 :: tuple[int, int]
+    r171 :: object
+    r172 :: bool
+    r173 :: object
+    r174 :: bit
+    r175 :: tuple
+    r176 :: ptr
+    r177 :: native_int
+    r178 :: short_int
+    r179 :: bit
+    r180 :: tuple
+    r181 :: object
+    r182 :: tuple[int, int]
+    r183 :: bool
+    r184 :: tuple[int, int]
+    r185, r186 :: int
+    r187 :: object
+    r188 :: bool
+    r189, r190 :: int
+    r191 :: bool
+    r192 :: int
+    r193 :: bit
+    r194 :: list
+    r195 :: object
+    r196 :: tuple[int, int]
+    r197, r198 :: int
+    r199 :: bool
+    r200, r201 :: int
+    r202 :: bool
+    r203, r204 :: int
+    r205 :: native_int
+    r206 :: bit
+    r207 :: native_int
+    r208, r209, r210 :: bit
+    r211 :: int
+    r212 :: bool
+    r213, r214 :: int
+    r215 :: tuple[int, int]
+    r216 :: object
+    r217 :: bool
+    r218 :: object
+    r219 :: bit
+    r220, r221, r222 :: int
+    r223 :: bool
+    r224, r225 :: int
+    r226 :: native_int
+    r227 :: bit
+    r228 :: native_int
+    r229, r230 :: bit
+    r231 :: bool
+    r232 :: bit
+    r233 :: list
+    r234, r235, r236, r237 :: int
+    r238 :: tuple[int, int]
+    r239 :: object
+    r240 :: i32
+    r241, r242 :: bit
+    r243 :: list
+    r244 :: object
+    r245 :: bool
+    r246, r247, r248, r249, r250 :: object
+    r251 :: bool
+    r252 :: object
+    r253 :: bit
+    r254 :: tuple[object, object, object]
+    r255 :: bool
+    r256 :: object_ptr
+    r257 :: object
+    r258, r259 :: bool
+    r260 :: tuple[object, object, object]
+    r261 :: bool
+    r262, r263 :: tuple[object, object, object]
+    r264 :: bit
+    r265, r266, r267, r268 :: object
+    r269 :: bool
+    r270, r271, r272, r273 :: bit
+    r274 :: bool
+    r275 :: object
+L0:
+    r0 = <error> :: object
+    r1 = r0
+    r2 = __mypyc_self__.__mypyc_env__
+    if is_error(r2) goto L210 (error at compact_files:8) else goto L1
+L1:
+    r3 = r2.__mypyc_next_label__
+    if is_error(r3) goto L211 (error at compact_files:8) else goto L203
+L2:
+    r4 = load_address _Py_NoneStruct
+    r5 = type != r4
+    if r5 goto L212 else goto L5 :: bool
+L3:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L209 (error at compact_files:8) else goto L4 :: bool
+L4:
+    unreachable
+L5:
+    r6 = load_address PyLong_Type
+    r7 = r2.string
+    if is_error(r7) goto L211 (error at compact_files:9) else goto L6
+L6:
+    r8 = builtins :: module
+    r9 = 'map'
+    r10 = CPyObject_GetAttr(r8, r9)
+    if is_error(r10) goto L213 (error at compact_files:9) else goto L7
+L7:
+    r11 = [r6, r7]
+    r12 = load_address r11
+    r13 = _PyObject_Vectorcall(r10, r12, 2, 0)
+    dec_ref r10
+    if is_error(r13) goto L213 (error at compact_files:9) else goto L8
+L8:
+    dec_ref r7
+    r14 = PySequence_List(r13)
+    dec_ref r13
+    if is_error(r14) goto L211 (error at compact_files:9) else goto L9
+L9:
+    r2.dmap = r14; r15 = is_error
+    if not r15 goto L211 (error at compact_files:9) else goto L10 :: bool
+L10:
+    r16 = r2.dmap
+    if is_error(r16) goto L211 (error at compact_files:10) else goto L11
+L11:
+    r17 = comp9.globals :: static
+    r18 = 'accumulate'
+    r19 = CPyDict_GetItem(r17, r18)
+    if is_error(r19) goto L214 (error at compact_files:10) else goto L12
+L12:
+    r20 = [r16]
+    r21 = load_address r20
+    r22 = _PyObject_Vectorcall(r19, r21, 1, 0)
+    dec_ref r19
+    if is_error(r22) goto L214 (error at compact_files:10) else goto L13
+L13:
+    dec_ref r16
+    r23 = PySequence_List(r22)
+    dec_ref r22
+    if is_error(r23) goto L211 (error at compact_files:10) else goto L14
+L14:
+    r24 = r2.dmap
+    if is_error(r24) goto L215 (error at compact_files:10) else goto L15
+L15:
+    r25 = builtins :: module
+    r26 = 'sum'
+    r27 = CPyObject_GetAttr(r25, r26)
+    if is_error(r27) goto L216 (error at compact_files:10) else goto L16
+L16:
+    r28 = [r24]
+    r29 = load_address r28
+    r30 = _PyObject_Vectorcall(r27, r29, 1, 0)
+    dec_ref r27
+    if is_error(r30) goto L216 (error at compact_files:10) else goto L17
+L17:
+    dec_ref r24
+    r31 = unbox(int, r30)
+    dec_ref r30
+    if is_error(r31) goto L215 (error at compact_files:10) else goto L18
+L18:
+    r32 = r2.dmap
+    if is_error(r32) goto L217 (error at compact_files:10) else goto L19
+L19:
+    r33 = load_address _Py_NoneStruct
+    r34 = object 1
+    r35 = object 2
+    r36 = PySlice_New(r34, r33, r35)
+    if is_error(r36) goto L218 (error at compact_files:10) else goto L20
+L20:
+    r37 = PyObject_GetItem(r32, r36)
+    dec_ref r32
+    dec_ref r36
+    if is_error(r37) goto L217 (error at compact_files:10) else goto L21
+L21:
+    r38 = cast(list, r37)
+    if is_error(r38) goto L217 (error at compact_files:10) else goto L22
+L22:
+    r39 = builtins :: module
+    r40 = 'sum'
+    r41 = CPyObject_GetAttr(r39, r40)
+    if is_error(r41) goto L219 (error at compact_files:10) else goto L23
+L23:
+    r42 = [r38]
+    r43 = load_address r42
+    r44 = _PyObject_Vectorcall(r41, r43, 1, 0)
+    dec_ref r41
+    if is_error(r44) goto L219 (error at compact_files:10) else goto L24
+L24:
+    dec_ref r38
+    r45 = unbox(int, r44)
+    dec_ref r44
+    if is_error(r45) goto L217 (error at compact_files:10) else goto L25
+L25:
+    r46 = CPyTagged_Subtract(r31, r45)
+    dec_ref r31 :: int
+    dec_ref r45 :: int
+    r47 = comp9.globals :: static
+    r48 = 'bisect'
+    r49 = CPyDict_GetItem(r47, r48)
+    if is_error(r49) goto L220 (error at compact_files:10) else goto L26
+L26:
+    r50 = box(int, r46)
+    r51 = [r23, r50]
+    r52 = load_address r51
+    r53 = _PyObject_Vectorcall(r49, r52, 2, 0)
+    dec_ref r49
+    if is_error(r53) goto L221 (error at compact_files:10) else goto L27
+L27:
+    dec_ref r23
+    dec_ref r50
+    r54 = unbox(int, r53)
+    dec_ref r53
+    if is_error(r54) goto L211 (error at compact_files:10) else goto L28
+L28:
+    r2.compacted = r54; r55 = is_error
+    if not r55 goto L211 (error at compact_files:10) else goto L29 :: bool
+L29:
+    r56 = r2.dmap
+    if is_error(r56) goto L211 (error at compact_files:13) else goto L30
+L30:
+    r57 = r2.compacted
+    if is_error(r57) goto L222 (error at compact_files:13) else goto L31
+L31:
+    r58 = CPyList_GetSlice(r56, 0, r57)
+    dec_ref r56
+    dec_ref r57 :: int
+    if is_error(r58) goto L211 (error at compact_files:13) else goto L32
+L32:
+    r59 = cast(list, r58)
+    if is_error(r59) goto L211 (error at compact_files:13) else goto L33
+L33:
+    r60 = r2.dmap
+    if is_error(r60) goto L223 (error at compact_files:14) else goto L34
+L34:
+    r61 = r2.compacted
+    if is_error(r61) goto L224 (error at compact_files:14) else goto L35
+L35:
+    r62 = CPyList_GetSlice(r60, r61, 9223372036854775806)
+    dec_ref r60
+    dec_ref r61 :: int
+    if is_error(r62) goto L223 (error at compact_files:14) else goto L36
+L36:
+    r63 = cast(list, r62)
+    if is_error(r63) goto L223 (error at compact_files:14) else goto L37
+L37:
+    r2.compacted_disk = r59; r64 = is_error
+    if not r64 goto L225 (error at compact_files:12) else goto L38 :: bool
+L38:
+    r2.free_disk = r63; r65 = is_error
+    if not r65 goto L211 (error at compact_files:12) else goto L39 :: bool
+L39:
+    r66 = PyList_New(0)
+    if is_error(r66) goto L211 (error at compact_files:17) else goto L40
+L40:
+    r2.__mypyc_temp__0 = r66; r67 = is_error
+    if not r67 goto L211 (error at compact_files:-1) else goto L41 :: bool
+L41:
+    r2.__mypyc_temp__1 = 0; r68 = is_error
+    if not r68 goto L211 (error at compact_files:-1) else goto L42 :: bool
+L42:
+    r2.i = 0; r69 = is_error
+    if not r69 goto L211 (error at compact_files:17) else goto L43 :: bool
+L43:
+    r70 = r2.compacted_disk
+    if is_error(r70) goto L211 (error at compact_files:17) else goto L44
+L44:
+    r2.__mypyc_temp__2 = r70; r71 = is_error
+    if not r71 goto L211 (error at compact_files:-1) else goto L45 :: bool
+L45:
+    r2.__mypyc_temp__3 = 0; r72 = is_error
+    if not r72 goto L211 (error at compact_files:-1) else goto L46 :: bool
+L46:
+    r73 = r2.__mypyc_temp__2
+    if is_error(r73) goto L211 (error at compact_files:17) else goto L47
+L47:
+    r74 = get_element_ptr r73 ob_size :: PyVarObject
+    r75 = load_mem r74 :: native_int*
+    dec_ref r73
+    r76 = r75 << 1
+    r77 = r2.__mypyc_temp__3
+    if is_error(r77) goto L211 (error at compact_files:17) else goto L48
+L48:
+    r78 = r77 < r76 :: signed
+    if r78 goto L49 else goto L63 :: bool
+L49:
+    r79 = r2.__mypyc_temp__2
+    if is_error(r79) goto L211 (error at compact_files:17) else goto L50
+L50:
+    r80 = r2.__mypyc_temp__3
+    if is_error(r80) goto L226 (error at compact_files:17) else goto L51
+L51:
+    r81 = CPyList_GetItemUnsafe(r79, r80)
+    dec_ref r79
+    r82 = unbox(int, r81)
+    dec_ref r81
+    if is_error(r82) goto L211 (error at compact_files:17) else goto L52
+L52:
+    r2.e = r82; r83 = is_error
+    if not r83 goto L211 (error at compact_files:17) else goto L53 :: bool
+L53:
+    r84 = r2.i
+    if is_error(r84) goto L211 (error at compact_files:17) else goto L54
+L54:
+    r85 = CPyTagged_Rshift(r84, 2)
+    dec_ref r84 :: int
+    if is_error(r85) goto L211 (error at compact_files:17) else goto L55
+L55:
+    r86 = r2.e
+    if is_error(r86) goto L227 (error at compact_files:17) else goto L56
+L56:
+    r87 = (r85, r86)
+    r88 = r2.__mypyc_temp__0
+    if is_error(r88) goto L228 (error at compact_files:-1) else goto L57
+L57:
+    r89 = box(tuple[int, int], r87)
+    r90 = PyList_Append(r88, r89)
+    dec_ref r88
+    dec_ref r89
+    r91 = r90 >= 0 :: signed
+    if not r91 goto L211 (error at compact_files:17) else goto L58 :: bool
+L58:
+    r92 = r2.__mypyc_temp__1
+    if is_error(r92) goto L211 (error at compact_files:17) else goto L59
+L59:
+    r93 = r92 + 2
+    r2.__mypyc_temp__1 = r93; r94 = is_error
+    if not r94 goto L211 (error at compact_files:17) else goto L60 :: bool
+L60:
+    r2.i = r93; r95 = is_error
+    if not r95 goto L211 (error at compact_files:17) else goto L61 :: bool
+L61:
+    r96 = r2.__mypyc_temp__3
+    if is_error(r96) goto L211 (error at compact_files:17) else goto L62
+L62:
+    r97 = r96 + 2
+    r2.__mypyc_temp__3 = r97; r98 = is_error
+    if not r98 goto L211 (error at compact_files:17) else goto L46 :: bool
+L63:
+    r99 = r2.__mypyc_temp__0
+    if is_error(r99) goto L211 (error at compact_files:-1) else goto L64
+L64:
+    r2.aug_compdisk = r99; r100 = is_error
+    if not r100 goto L211 (error at compact_files:17) else goto L65 :: bool
+L65:
+    r101 = PyList_New(0)
+    if is_error(r101) goto L211 (error at compact_files:19) else goto L66
+L66:
+    r2.__mypyc_temp__4 = r101; r102 = is_error
+    if not r102 goto L211 (error at compact_files:-1) else goto L67 :: bool
+L67:
+    r103 = r2.free_disk
+    if is_error(r103) goto L211 (error at compact_files:19) else goto L68
+L68:
+    r104 = r2.compacted
+    if is_error(r104) goto L229 (error at compact_files:19) else goto L69
+L69:
+    r105 = builtins :: module
+    r106 = 'enumerate'
+    r107 = CPyObject_GetAttr(r105, r106)
+    if is_error(r107) goto L230 (error at compact_files:19) else goto L70
+L70:
+    r108 = box(int, r104)
+    r109 = [r103, r108]
+    r110 = load_address r109
+    r111 = ('start',)
+    r112 = _PyObject_Vectorcall(r107, r110, 1, r111)
+    dec_ref r107
+    if is_error(r112) goto L231 (error at compact_files:19) else goto L71
+L71:
+    dec_ref r103
+    dec_ref r108
+    r113 = PyObject_GetIter(r112)
+    if is_error(r113) goto L232 (error at compact_files:19) else goto L72
+L72:
+    r2.__mypyc_temp__5 = r112; r114 = is_error
+    if not r114 goto L233 (error at compact_files:-1) else goto L73 :: bool
+L73:
+    r2.__mypyc_temp__6 = r113; r115 = is_error
+    if not r115 goto L211 (error at compact_files:-1) else goto L74 :: bool
+L74:
+    r116 = r2.__mypyc_temp__6
+    if is_error(r116) goto L211 (error at compact_files:19) else goto L75
+L75:
+    r117 = PyIter_Next(r116)
+    dec_ref r116
+    if is_error(r117) goto L84 else goto L76
+L76:
+    r118 = unbox(tuple[int, int], r117)
+    dec_ref r117
+    if is_error(r118) goto L211 (error at compact_files:19) else goto L77
+L77:
+    r119 = r118[0]
+    r2.i = r119; r120 = is_error
+    if not r120 goto L234 (error at compact_files:19) else goto L78 :: bool
+L78:
+    r121 = r118[1]
+    dec_ref r118
+    r2.e = r121; r122 = is_error
+    if not r122 goto L211 (error at compact_files:19) else goto L79 :: bool
+L79:
+    r123 = r2.i
+    if is_error(r123) goto L211 (error at compact_files:19) else goto L80
+L80:
+    r124 = CPyTagged_Rshift(r123, 2)
+    dec_ref r123 :: int
+    if is_error(r124) goto L211 (error at compact_files:19) else goto L81
+L81:
+    r125 = r2.e
+    if is_error(r125) goto L235 (error at compact_files:19) else goto L82
+L82:
+    r126 = (r124, r125)
+    r127 = r2.__mypyc_temp__4
+    if is_error(r127) goto L236 (error at compact_files:-1) else goto L83
+L83:
+    r128 = box(tuple[int, int], r126)
+    r129 = PyList_Append(r127, r128)
+    dec_ref r127
+    dec_ref r128
+    r130 = r129 >= 0 :: signed
+    if not r130 goto L211 (error at compact_files:19) else goto L74 :: bool
+L84:
+    r131 = CPy_NoErrOccured()
+    if not r131 goto L211 (error at compact_files:19) else goto L85 :: bool
+L85:
+    r132 = r2.__mypyc_temp__4
+    if is_error(r132) goto L211 (error at compact_files:-1) else goto L86
+L86:
+    r133 = r2.compacted
+    if is_error(r133) goto L237 (error at compact_files:20) else goto L87
+L87:
+    r134 = CPyTagged_Remainder(r133, 4)
+    dec_ref r133 :: int
+    if is_error(r134) goto L237 (error at compact_files:20) else goto L88
+L88:
+    r135 = load_address _Py_NoneStruct
+    r136 = box(int, r134)
+    r137 = object 2
+    r138 = PySlice_New(r136, r135, r137)
+    dec_ref r136
+    if is_error(r138) goto L237 (error at compact_files:19) else goto L89
+L89:
+    r139 = PyObject_GetItem(r132, r138)
+    dec_ref r132
+    dec_ref r138
+    if is_error(r139) goto L211 (error at compact_files:19) else goto L90
+L90:
+    r140 = cast(list, r139)
+    if is_error(r140) goto L211 (error at compact_files:19) else goto L91
+L91:
+    r2.aug_freedisk = r140; r141 = is_error
+    if not r141 goto L211 (error at compact_files:19) else goto L92 :: bool
+L92:
+    r142 = r2.aug_compdisk
+    if is_error(r142) goto L211 (error at compact_files:23) else goto L93
+L93:
+    r143 = comp9.globals :: static
+    r144 = 'batched'
+    r145 = CPyDict_GetItem(r143, r144)
+    if is_error(r145) goto L238 (error at compact_files:23) else goto L94
+L94:
+    r146 = object 2
+    r147 = [r142, r146]
+    r148 = load_address r147
+    r149 = _PyObject_Vectorcall(r145, r148, 2, 0)
+    dec_ref r145
+    if is_error(r149) goto L238 (error at compact_files:23) else goto L95
+L95:
+    dec_ref r142
+    r150 = PyObject_GetIter(r149)
+    if is_error(r150) goto L239 (error at compact_files:23) else goto L96
+L96:
+    r2.__mypyc_temp__7 = r149; r151 = is_error
+    if not r151 goto L240 (error at compact_files:-1) else goto L97 :: bool
+L97:
+    r2.__mypyc_temp__8 = r150; r152 = is_error
+    if not r152 goto L211 (error at compact_files:-1) else goto L98 :: bool
+L98:
+    r153 = r2.__mypyc_temp__8
+    if is_error(r153) goto L211 (error at compact_files:23) else goto L99
+L99:
+    r154 = PyIter_Next(r153)
+    dec_ref r153
+    if is_error(r154) goto L163 else goto L241
+L100:
+    r155 = cast(tuple, r154)
+    if is_error(r155) goto L242 (error at compact_files:23) else goto L101
+L101:
+    r2.two_blocks = r155; r156 = is_error
+    if not r156 goto L242 (error at compact_files:23) else goto L102 :: bool
+L102:
+    r157 = r2.two_blocks
+    if is_error(r157) goto L242 (error at compact_files:24) else goto L103
+L103:
+    r158 = CPySequenceTuple_GetItem(r157, 0)
+    dec_ref r157
+    if is_error(r158) goto L242 (error at compact_files:24) else goto L104
+L104:
+    r159 = unbox(tuple[int, int], r158)
+    dec_ref r158
+    if is_error(r159) goto L242 (error at compact_files:24) else goto L105
+L105:
+    r2.file_block = r159; r160 = is_error
+    if not r160 goto L242 (error at compact_files:24) else goto L106 :: bool
+L106:
+    r161 = r2.file_block
+    if is_error(r161) goto L242 (error at compact_files:25) else goto L107
+L107:
+    r162 = borrow r161[0]
+    r163 = unborrow r162
+    r2.file_id = r163; r164 = is_error
+    if not r164 goto L243 (error at compact_files:25) else goto L108 :: bool
+L108:
+    r165 = borrow r161[1]
+    r166 = unborrow r165
+    r2.file_count = r166; r167 = is_error
+    if not r167 goto L243 (error at compact_files:25) else goto L109 :: bool
+L109:
+    r168 = r2.file_id
+    if is_error(r168) goto L242 (error at compact_files:26) else goto L110
+L110:
+    r169 = r2.file_count
+    if is_error(r169) goto L244 (error at compact_files:26) else goto L111
+L111:
+    r170 = (r168, r169)
+    r171 = box(tuple[int, int], r170)
+    r2.__mypyc_next_label__ = 2; r172 = is_error
+    dec_ref r2
+    if not r172 goto L245 (error at compact_files:26) else goto L112 :: bool
+L112:
+    return r171
+L113:
+    r173 = load_address _Py_NoneStruct
+    r174 = type != r173
+    if r174 goto L246 else goto L116 :: bool
+L114:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L209 (error at compact_files:26) else goto L115 :: bool
+L115:
+    unreachable
+L116:
+    r175 = r2.two_blocks
+    if is_error(r175) goto L211 (error at compact_files:28) else goto L117
+L117:
+    r176 = get_element_ptr r175 ob_size :: PyVarObject
+    r177 = load_mem r176 :: native_int*
+    dec_ref r175
+    r178 = r177 << 1
+    r179 = r178 < 4 :: signed
+    if r179 goto L98 else goto L118 :: bool
+L118:
+    r180 = r2.two_blocks
+    if is_error(r180) goto L211 (error at compact_files:31) else goto L119
+L119:
+    r181 = CPySequenceTuple_GetItem(r180, 2)
+    dec_ref r180
+    if is_error(r181) goto L211 (error at compact_files:31) else goto L120
+L120:
+    r182 = unbox(tuple[int, int], r181)
+    dec_ref r181
+    if is_error(r182) goto L211 (error at compact_files:31) else goto L121
+L121:
+    r2.free_block = r182; r183 = is_error
+    if not r183 goto L211 (error at compact_files:31) else goto L122 :: bool
+L122:
+    r184 = r2.free_block
+    if is_error(r184) goto L211 (error at compact_files:33) else goto L123
+L123:
+    r185 = borrow r184[0]
+    r186 = unborrow r185
+    r187 = box(int, r186)
+    r2._ = r187; r188 = is_error
+    if not r188 goto L247 (error at compact_files:33) else goto L124 :: bool
+L124:
+    r189 = borrow r184[1]
+    r190 = unborrow r189
+    r2.free_count = r190; r191 = is_error
+    if not r191 goto L247 (error at compact_files:33) else goto L125 :: bool
+L125:
+    r192 = r2.free_count
+    if is_error(r192) goto L211 (error at compact_files:34) else goto L126
+L126:
+    r193 = r192 != 0
+    dec_ref r192 :: int
+    if r193 goto L248 else goto L98 :: bool
+L127:
+    r194 = r2.aug_freedisk
+    if is_error(r194) goto L242 (error at compact_files:35) else goto L128
+L128:
+    r195 = CPyList_PopLast(r194)
+    dec_ref r194
+    if is_error(r195) goto L242 (error at compact_files:35) else goto L129
+L129:
+    r196 = unbox(tuple[int, int], r195)
+    dec_ref r195
+    if is_error(r196) goto L242 (error at compact_files:35) else goto L130
+L130:
+    r197 = borrow r196[0]
+    r198 = unborrow r197
+    r2.fill_id = r198; r199 = is_error
+    if not r199 goto L249 (error at compact_files:35) else goto L131 :: bool
+L131:
+    r200 = borrow r196[1]
+    r201 = unborrow r200
+    r2.fill_count = r201; r202 = is_error
+    if not r202 goto L249 (error at compact_files:35) else goto L132 :: bool
+L132:
+    r203 = r2.fill_count
+    if is_error(r203) goto L242 (error at compact_files:36) else goto L133
+L133:
+    r204 = r2.free_count
+    if is_error(r204) goto L250 (error at compact_files:36) else goto L134
+L134:
+    r205 = r204 & 1
+    r206 = r205 != 0
+    if r206 goto L136 else goto L135 :: bool
+L135:
+    r207 = r203 & 1
+    r208 = r207 != 0
+    if r208 goto L136 else goto L137 :: bool
+L136:
+    r209 = CPyTagged_IsLt_(r204, r203)
+    if r209 goto L251 else goto L252 :: bool
+L137:
+    r210 = r204 < r203 :: signed
+    if r210 goto L251 else goto L252 :: bool
+L138:
+    r211 = r204
+    goto L140
+L139:
+    r211 = r203
+L140:
+    r2.can_fill = r211; r212 = is_error
+    if not r212 goto L242 (error at compact_files:36) else goto L141 :: bool
+L141:
+    r213 = r2.fill_id
+    if is_error(r213) goto L242 (error at compact_files:37) else goto L142
+L142:
+    r214 = r2.can_fill
+    if is_error(r214) goto L253 (error at compact_files:37) else goto L143
+L143:
+    r215 = (r213, r214)
+    r216 = box(tuple[int, int], r215)
+    r2.__mypyc_next_label__ = 4; r217 = is_error
+    dec_ref r2
+    if not r217 goto L254 (error at compact_files:37) else goto L144 :: bool
+L144:
+    return r216
+L145:
+    r218 = load_address _Py_NoneStruct
+    r219 = type != r218
+    if r219 goto L255 else goto L148 :: bool
+L146:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L209 (error at compact_files:37) else goto L147 :: bool
+L147:
+    unreachable
+L148:
+    r220 = r2.free_count
+    if is_error(r220) goto L211 (error at compact_files:39) else goto L149
+L149:
+    r221 = r2.can_fill
+    if is_error(r221) goto L256 (error at compact_files:39) else goto L150
+L150:
+    r222 = CPyTagged_Subtract(r220, r221)
+    dec_ref r220 :: int
+    dec_ref r221 :: int
+    r2.free_count = r222; r223 = is_error
+    if not r223 goto L211 (error at compact_files:39) else goto L151 :: bool
+L151:
+    r224 = r2.fill_count
+    if is_error(r224) goto L211 (error at compact_files:41) else goto L152
+L152:
+    r225 = r2.can_fill
+    if is_error(r225) goto L257 (error at compact_files:41) else goto L153
+L153:
+    r226 = r224 & 1
+    r227 = r226 != 0
+    if r227 goto L155 else goto L154 :: bool
+L154:
+    r228 = r225 & 1
+    r229 = r228 != 0
+    if r229 goto L155 else goto L156 :: bool
+L155:
+    r230 = CPyTagged_IsLt_(r225, r224)
+    r231 = r230
+    goto L157
+L156:
+    r232 = r224 > r225 :: signed
+    r231 = r232
+L157:
+    dec_ref r224 :: int
+    dec_ref r225 :: int
+    if r231 goto L158 else goto L125 :: bool
+L158:
+    r233 = r2.aug_freedisk
+    if is_error(r233) goto L211 (error at compact_files:42) else goto L159
+L159:
+    r234 = r2.fill_id
+    if is_error(r234) goto L258 (error at compact_files:42) else goto L160
+L160:
+    r235 = r2.fill_count
+    if is_error(r235) goto L259 (error at compact_files:42) else goto L161
+L161:
+    r236 = r2.can_fill
+    if is_error(r236) goto L260 (error at compact_files:42) else goto L162
+L162:
+    r237 = CPyTagged_Subtract(r235, r236)
+    dec_ref r235 :: int
+    dec_ref r236 :: int
+    r238 = (r234, r237)
+    r239 = box(tuple[int, int], r238)
+    r240 = PyList_Append(r233, r239)
+    dec_ref r233
+    dec_ref r239
+    r241 = r240 >= 0 :: signed
+    if not r241 goto L211 (error at compact_files:42) else goto L125 :: bool
+L163:
+    r242 = CPy_NoErrOccured()
+    if not r242 goto L211 (error at compact_files:23) else goto L164 :: bool
+L164:
+    r243 = r2.aug_freedisk
+    if is_error(r243) goto L211 (error at compact_files:44) else goto L165
+L165:
+    r244 = PyObject_GetIter(r243)
+    dec_ref r243
+    if is_error(r244) goto L211 (error at compact_files:44) else goto L166
+L166:
+    r2.__mypyc_temp__9 = r244; r245 = is_error
+    if not r245 goto L211 (error at compact_files:-1) else goto L167 :: bool
+L167:
+    r246 = r2.__mypyc_temp__9
+    if is_error(r246) goto L211 (error at compact_files:-1) else goto L168
+L168:
+    r247 = CPyIter_Next(r246)
+    dec_ref r246
+    if is_error(r247) goto L261 else goto L171
+L169:
+    r248 = CPy_FetchStopIterationValue()
+    if is_error(r248) goto L242 (error at compact_files:44) else goto L170
+L170:
+    r249 = r248
+    dec_ref r249
+    goto L200
+L171:
+    r250 = r247
+L172:
+    r2.__mypyc_next_label__ = 6; r251 = is_error
+    if not r251 goto L262 (error at compact_files:44) else goto L263 :: bool
+L173:
+    return r250
+L174:
+    r252 = load_address _Py_NoneStruct
+    r253 = type != r252
+    if r253 goto L175 else goto L177 :: bool
+L175:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L178 (error at compact_files:44) else goto L264 :: bool
+L176:
+    unreachable
+L177:
+    inc_ref arg
+    goto L195
+L178:
+    r254 = CPy_CatchError()
+    r2.__mypyc_temp__10 = r254; r255 = is_error
+    if not r255 goto L265 (error at compact_files:-1) else goto L179 :: bool
+L179:
+    r256 = load_address r1
+    r257 = r2.__mypyc_temp__9
+    if is_error(r257) goto L265 (error at compact_files:-1) else goto L180
+L180:
+    r258 = CPy_YieldFromErrorHandle(r257, r256)
+    dec_ref r257
+    if is_error(r258) goto L265 (error at compact_files:44) else goto L181
+L181:
+    if r258 goto L187 else goto L182 :: bool
+L182:
+    if is_error(r1) goto L183 else goto L185
+L183:
+    r259 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r259 goto L192 (error at compact_files:-1) else goto L266 :: bool
+L184:
+    unreachable
+L185:
+    inc_ref r1
+    r250 = r1
+    r260 = r2.__mypyc_temp__10
+    if is_error(r260) goto L267 (error at compact_files:-1) else goto L186
+L186:
+    CPy_RestoreExcInfo(r260)
+    dec_ref r260
+    goto L172
+L187:
+    if is_error(r1) goto L188 else goto L190
+L188:
+    r261 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r261 goto L192 (error at compact_files:-1) else goto L268 :: bool
+L189:
+    unreachable
+L190:
+    r249 = r1
+    dec_ref r249
+    r262 = r2.__mypyc_temp__10
+    if is_error(r262) goto L192 (error at compact_files:-1) else goto L191
+L191:
+    CPy_RestoreExcInfo(r262)
+    dec_ref r262
+    goto L200
+L192:
+    r263 = r2.__mypyc_temp__10
+    dec_ref r2
+    if is_error(r263) goto L209 (error at compact_files:-1) else goto L193
+L193:
+    CPy_RestoreExcInfo(r263)
+    dec_ref r263
+    r264 = CPy_KeepPropagating()
+    if not r264 goto L209 else goto L194 :: bool
+L194:
+    unreachable
+L195:
+    r265 = r2.__mypyc_temp__9
+    if is_error(r265) goto L269 (error at compact_files:-1) else goto L196
+L196:
+    r266 = CPyIter_Send(r265, arg)
+    dec_ref r265
+    dec_ref arg
+    if is_error(r266) goto L270 else goto L197
+L197:
+    r250 = r266
+    goto L172
+L198:
+    r267 = CPy_FetchStopIterationValue()
+    if is_error(r267) goto L242 (error at compact_files:44) else goto L199
+L199:
+    r249 = r267
+    dec_ref r249
+L200:
+    r268 = box(None, 1)
+    r2.__mypyc_next_label__ = -2; r269 = is_error
+    dec_ref r2
+    if not r269 goto L209 (error at compact_files:8) else goto L201 :: bool
+L201:
+    CPyGen_SetStopIterationValue(r268)
+    if not 0 goto L209 else goto L202 :: bool
+L202:
+    unreachable
+L203:
+    r270 = r3 == 0
+    if r270 goto L271 else goto L204 :: bool
+L204:
+    r271 = r3 == 2
+    if r271 goto L272 else goto L205 :: bool
+L205:
+    r272 = r3 == 4
+    if r272 goto L273 else goto L206 :: bool
+L206:
+    r273 = r3 == 6
+    dec_ref r3 :: int
+    if r273 goto L174 else goto L274 :: bool
+L207:
+    r274 = raise StopIteration
+    if not r274 goto L209 (error at compact_files:8) else goto L208 :: bool
+L208:
+    unreachable
+L209:
+    r275 = <error> :: object
+    return r275
+L210:
+    xdec_ref r1
+    goto L209
+L211:
+    xdec_ref r1
+    dec_ref r2
+    goto L209
+L212:
+    xdec_ref r1
+    dec_ref r2
+    goto L3
+L213:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r7
+    goto L209
+L214:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r16
+    goto L209
+L215:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    goto L209
+L216:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    dec_ref r24
+    goto L209
+L217:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    dec_ref r31 :: int
+    goto L209
+L218:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    dec_ref r31 :: int
+    dec_ref r32
+    goto L209
+L219:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    dec_ref r31 :: int
+    dec_ref r38
+    goto L209
+L220:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    dec_ref r46 :: int
+    goto L209
+L221:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r23
+    dec_ref r50
+    goto L209
+L222:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r56
+    goto L209
+L223:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r59
+    goto L209
+L224:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r59
+    dec_ref r60
+    goto L209
+L225:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r63
+    goto L209
+L226:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r79
+    goto L209
+L227:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r85 :: int
+    goto L209
+L228:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r87
+    goto L209
+L229:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r103
+    goto L209
+L230:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r103
+    dec_ref r104 :: int
+    goto L209
+L231:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r103
+    dec_ref r108
+    goto L209
+L232:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r112
+    goto L209
+L233:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r113
+    goto L209
+L234:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r118
+    goto L209
+L235:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r124 :: int
+    goto L209
+L236:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r126
+    goto L209
+L237:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r132
+    goto L209
+L238:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r142
+    goto L209
+L239:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r149
+    goto L209
+L240:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r150
+    goto L209
+L241:
+    xdec_ref r1
+    goto L100
+L242:
+    dec_ref r2
+    goto L209
+L243:
+    dec_ref r2
+    dec_ref r161
+    goto L209
+L244:
+    dec_ref r2
+    dec_ref r168 :: int
+    goto L209
+L245:
+    dec_ref r171
+    goto L209
+L246:
+    xdec_ref r1
+    dec_ref r2
+    goto L114
+L247:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r184
+    goto L209
+L248:
+    xdec_ref r1
+    goto L127
+L249:
+    dec_ref r2
+    dec_ref r196
+    goto L209
+L250:
+    dec_ref r2
+    dec_ref r203 :: int
+    goto L209
+L251:
+    dec_ref r203 :: int
+    goto L138
+L252:
+    dec_ref r204 :: int
+    goto L139
+L253:
+    dec_ref r2
+    dec_ref r213 :: int
+    goto L209
+L254:
+    dec_ref r216
+    goto L209
+L255:
+    xdec_ref r1
+    dec_ref r2
+    goto L146
+L256:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r220 :: int
+    goto L209
+L257:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r224 :: int
+    goto L209
+L258:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r233
+    goto L209
+L259:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r233
+    dec_ref r234 :: int
+    goto L209
+L260:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref r233
+    dec_ref r234 :: int
+    dec_ref r235 :: int
+    goto L209
+L261:
+    xdec_ref r1
+    goto L169
+L262:
+    dec_ref r250
+    goto L178
+L263:
+    xdec_ref r1
+    dec_ref r2
+    goto L173
+L264:
+    xdec_ref r1
+    dec_ref r2
+    goto L176
+L265:
+    xdec_ref r1
+    goto L192
+L266:
+    dec_ref r2
+    goto L184
+L267:
+    xdec_ref r1
+    dec_ref r250
+    goto L192
+L268:
+    dec_ref r2
+    goto L189
+L269:
+    xdec_ref r1
+    dec_ref r2
+    dec_ref arg
+    goto L209
+L270:
+    xdec_ref r1
+    goto L198
+L271:
+    dec_ref r3 :: int
+    goto L2
+L272:
+    dec_ref r3 :: int
+    goto L113
+L273:
+    dec_ref r3 :: int
+    goto L145
+L274:
+    xdec_ref r1
+    dec_ref r2
+    goto L207
+
+def compact_files_gen.__next__(__mypyc_self__):
+    __mypyc_self__ :: comp9.compact_files_gen
+    r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = compact_files_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, r0)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def compact_files_gen.send(__mypyc_self__, arg):
+    __mypyc_self__ :: comp9.compact_files_gen
+    arg, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = compact_files_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, arg)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def compact_files_gen.__iter__(__mypyc_self__):
+    __mypyc_self__ :: comp9.compact_files_gen
+L0:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+
+def compact_files_gen.throw(__mypyc_self__, type, value, traceback):
+    __mypyc_self__ :: comp9.compact_files_gen
+    type, value, traceback, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    if is_error(value) goto L1 else goto L7
+L1:
+    inc_ref r0
+    value = r0
+L2:
+    if is_error(traceback) goto L3 else goto L8
+L3:
+    inc_ref r0
+    traceback = r0
+L4:
+    r1 = compact_files_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, r0)
+    dec_ref value
+    dec_ref traceback
+    if is_error(r1) goto L6 else goto L5
+L5:
+    return r1
+L6:
+    r2 = <error> :: object
+    return r2
+L7:
+    inc_ref value
+    goto L2
+L8:
+    inc_ref traceback
+    goto L4
+
+def compact_files_gen.close(__mypyc_self__):
+    __mypyc_self__ :: comp9.compact_files_gen
+    r0 :: object
+    r1 :: str
+    r2, r3, r4, r5 :: object
+    r6 :: tuple[object, object, object]
+    r7 :: object
+    r8 :: str
+    r9 :: object
+    r10 :: tuple[object, object]
+    r11 :: object
+    r12 :: bit
+    r13 :: object
+    r14 :: bool
+    r15 :: object
+L0:
+L1:
+    r0 = builtins :: module
+    r1 = 'GeneratorExit'
+    r2 = CPyObject_GetAttr(r0, r1)
+    if is_error(r2) goto L3 else goto L2
+L2:
+    r3 = load_address _Py_NoneStruct
+    r4 = load_address _Py_NoneStruct
+    r5 = __mypyc_self__.throw(r2, r3, r4)
+    if is_error(r5) goto L3 else goto L11
+L3:
+    r6 = CPy_CatchError()
+    r7 = builtins :: module
+    r8 = 'StopIteration'
+    r9 = CPyObject_GetAttr(r7, r8)
+    if is_error(r9) goto L12 else goto L4
+L4:
+    r10 = (r2, r9)
+    r11 = box(tuple[object, object], r10)
+    r12 = CPy_ExceptionMatches(r11)
+    dec_ref r11
+    if r12 goto L5 else goto L13 :: bool
+L5:
+    CPy_RestoreExcInfo(r6)
+    dec_ref r6
+    r13 = load_address _Py_NoneStruct
+    inc_ref r13
+    return r13
+L6:
+    CPy_Reraise()
+    if not 0 goto L10 else goto L7 :: bool
+L7:
+    unreachable
+L8:
+    r14 = raise RuntimeError('generator ignored GeneratorExit')
+    if not r14 goto L10 else goto L9 :: bool
+L9:
+    unreachable
+L10:
+    r15 = <error> :: object
+    return r15
+L11:
+    dec_ref r2
+    dec_ref r5
+    goto L8
+L12:
+    dec_ref r2
+    dec_ref r6
+    goto L10
+L13:
+    dec_ref r6
+    goto L6
+
+def compact_files(string):
+    string :: str
+    r0 :: comp9.compact_files_env
+    r1 :: bool
+    r2 :: comp9.compact_files_gen
+    r3, r4 :: bool
+    r5 :: object
+L0:
+    r0 = compact_files_env()
+    if is_error(r0) goto L6 (error at compact_files:8) else goto L1
+L1:
+    inc_ref string
+    r0.string = string; r1 = is_error
+    if not r1 goto L7 (error at compact_files:8) else goto L2 :: bool
+L2:
+    r2 = compact_files_gen()
+    if is_error(r2) goto L7 (error at compact_files:8) else goto L3
+L3:
+    inc_ref r0
+    r2.__mypyc_env__ = r0; r3 = is_error
+    if not r3 goto L8 (error at compact_files:8) else goto L4 :: bool
+L4:
+    r0.__mypyc_next_label__ = 0; r4 = is_error
+    dec_ref r0
+    if not r4 goto L9 (error at compact_files:8) else goto L5 :: bool
+L5:
+    return r2
+L6:
+    r5 = <error> :: object
+    return r5
+L7:
+    dec_ref r0
+    goto L6
+L8:
+    dec_ref r0
+    dec_ref r2
+    goto L6
+L9:
+    dec_ref r2
+    goto L6
+
+def calc_checksum(filesystem):
+    filesystem :: object
+    i, chksum :: int
+    r0, r1 :: object
+    r2 :: tuple[int, int]
+    r3, r4 :: int
+    r5 :: dict
+    r6 :: str
+    r7 :: object
+    r8 :: int
+    r9, r10, r11 :: object
+    r12 :: object[2]
+    r13 :: object_ptr
+    r14 :: object
+    r15 :: range
+    r16 :: dict
+    r17 :: str
+    r18, r19 :: object
+    r20 :: object[1]
+    r21 :: object_ptr
+    r22, r23 :: object
+    r24 :: str
+    r25 :: object
+    r26 :: object[3]
+    r27 :: object_ptr
+    r28, r29 :: object
+    r30 :: str
+    r31 :: object
+    r32 :: object[1]
+    r33 :: object_ptr
+    r34, r35, r36 :: object
+    r37, r38 :: int
+    r39 :: bit
+    r40, r41 :: object
+L0:
+    i = 0
+    chksum = 0
+    r0 = PyObject_GetIter(filesystem)
+    if is_error(r0) goto L18 (error at calc_checksum:50) else goto L1
+L1:
+    r1 = PyIter_Next(r0)
+    if is_error(r1) goto L19 else goto L2
+L2:
+    r2 = unbox(tuple[int, int], r1)
+    dec_ref r1
+    if is_error(r2) goto L20 (error at calc_checksum:50) else goto L3
+L3:
+    r3 = r2[0]
+    r4 = r2[1]
+    dec_ref r2
+    r5 = comp9.globals :: static
+    r6 = 'mul'
+    r7 = CPyDict_GetItem(r5, r6)
+    if is_error(r7) goto L21 (error at calc_checksum:51) else goto L4
+L4:
+    r8 = CPyTagged_Add(r4, i)
+    r9 = load_address PyRange_Type
+    inc_ref i :: int
+    r10 = box(int, i)
+    r11 = box(int, r8)
+    r12 = [r10, r11]
+    r13 = load_address r12
+    r14 = _PyObject_Vectorcall(r9, r13, 2, 0)
+    if is_error(r14) goto L22 (error at calc_checksum:51) else goto L5
+L5:
+    dec_ref r10
+    dec_ref r11
+    r15 = cast(range, r14)
+    if is_error(r15) goto L23 (error at calc_checksum:51) else goto L6
+L6:
+    r16 = comp9.globals :: static
+    r17 = 'repeat'
+    r18 = CPyDict_GetItem(r16, r17)
+    if is_error(r18) goto L24 (error at calc_checksum:51) else goto L7
+L7:
+    r19 = box(int, r3)
+    r20 = [r19]
+    r21 = load_address r20
+    r22 = _PyObject_Vectorcall(r18, r21, 1, 0)
+    dec_ref r18
+    if is_error(r22) goto L25 (error at calc_checksum:51) else goto L8
+L8:
+    dec_ref r19
+    r23 = builtins :: module
+    r24 = 'map'
+    r25 = CPyObject_GetAttr(r23, r24)
+    if is_error(r25) goto L26 (error at calc_checksum:51) else goto L9
+L9:
+    r26 = [r7, r15, r22]
+    r27 = load_address r26
+    r28 = _PyObject_Vectorcall(r25, r27, 3, 0)
+    dec_ref r25
+    if is_error(r28) goto L26 (error at calc_checksum:51) else goto L10
+L10:
+    dec_ref r7
+    dec_ref r15
+    dec_ref r22
+    r29 = builtins :: module
+    r30 = 'sum'
+    r31 = CPyObject_GetAttr(r29, r30)
+    if is_error(r31) goto L27 (error at calc_checksum:51) else goto L11
+L11:
+    r32 = [r28]
+    r33 = load_address r32
+    r34 = _PyObject_Vectorcall(r31, r33, 1, 0)
+    dec_ref r31
+    if is_error(r34) goto L27 (error at calc_checksum:51) else goto L12
+L12:
+    dec_ref r28
+    r35 = box(int, chksum)
+    r36 = PyNumber_InPlaceAdd(r35, r34)
+    dec_ref r35
+    dec_ref r34
+    if is_error(r36) goto L28 (error at calc_checksum:51) else goto L13
+L13:
+    r37 = unbox(int, r36)
+    dec_ref r36
+    if is_error(r37) goto L28 (error at calc_checksum:51) else goto L14
+L14:
+    chksum = r37
+    r38 = CPyTagged_Add(i, r4)
+    dec_ref i :: int
+    dec_ref r4 :: int
+    i = r38
+    goto L1
+L15:
+    r39 = CPy_NoErrOccured()
+    if not r39 goto L29 (error at calc_checksum:50) else goto L16 :: bool
+L16:
+    r40 = box(int, chksum)
+    return r40
+L17:
+    r41 = <error> :: object
+    return r41
+L18:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    goto L17
+L19:
+    dec_ref i :: int
+    dec_ref r0
+    goto L15
+L20:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    goto L17
+L21:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r3 :: int
+    dec_ref r4 :: int
+    goto L17
+L22:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r3 :: int
+    dec_ref r4 :: int
+    dec_ref r7
+    dec_ref r10
+    dec_ref r11
+    goto L17
+L23:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r3 :: int
+    dec_ref r4 :: int
+    dec_ref r7
+    goto L17
+L24:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r3 :: int
+    dec_ref r4 :: int
+    dec_ref r7
+    dec_ref r15
+    goto L17
+L25:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r4 :: int
+    dec_ref r7
+    dec_ref r15
+    dec_ref r19
+    goto L17
+L26:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r4 :: int
+    dec_ref r7
+    dec_ref r15
+    dec_ref r22
+    goto L17
+L27:
+    dec_ref i :: int
+    dec_ref chksum :: int
+    dec_ref r0
+    dec_ref r4 :: int
+    dec_ref r28
+    goto L17
+L28:
+    dec_ref i :: int
+    dec_ref r0
+    dec_ref r4 :: int
+    goto L17
+L29:
+    dec_ref chksum :: int
+    goto L17
+
+def run():
+    r0 :: str
+    r1 :: object
+    r2 :: str
+    r3 :: object
+    r4 :: object[1]
+    r5 :: object_ptr
+    r6, r7 :: object
+    r8 :: str
+    r9 :: object
+    r10 :: str
+    r11 :: object
+    r12 :: object[1]
+    r13 :: object_ptr
+    r14 :: object
+    r15 :: bool
+    r16 :: dict
+    r17 :: str
+    r18, r19 :: object
+    r20 :: str
+    r21 :: object[1]
+    r22 :: object_ptr
+    r23 :: object
+    r24 :: str
+    r25 :: object[1]
+    r26 :: object_ptr
+    r27 :: object
+    r28 :: str
+    r29, r30, r31 :: object
+    r32 :: str
+    r33 :: object
+    r34 :: object[1]
+    r35 :: object_ptr
+    r36 :: object
+    r37 :: dict
+    r38 :: str
+    r39, r40, r41, r42 :: object
+    r43 :: str
+    r44 :: object
+    r45 :: object[1]
+    r46 :: object_ptr
+    r47 :: object
+    r48, r49 :: tuple[object, object, object]
+    r50, r51, r52 :: object
+    r53 :: object[4]
+    r54 :: object_ptr
+    r55 :: object
+    r56 :: i32
+    r57 :: bit
+    r58 :: bool
+    r59 :: bit
+    r60, r61, r62 :: tuple[object, object, object]
+    r63 :: object
+    r64 :: object[4]
+    r65 :: object_ptr
+    r66 :: object
+    r67 :: bit
+    r68, r69 :: object
+L0:
+    r0 = 'input9.txt'
+    r1 = builtins :: module
+    r2 = 'open'
+    r3 = CPyObject_GetAttr(r1, r2)
+    if is_error(r3) goto L42 (error at run:57) else goto L1
+L1:
+    r4 = [r0]
+    r5 = load_address r4
+    r6 = _PyObject_Vectorcall(r3, r5, 1, 0)
+    dec_ref r3
+    if is_error(r6) goto L42 (error at run:57) else goto L2
+L2:
+    r7 = PyObject_Type(r6)
+    r8 = '__exit__'
+    r9 = CPyObject_GetAttr(r7, r8)
+    if is_error(r9) goto L43 (error at run:57) else goto L3
+L3:
+    r10 = '__enter__'
+    r11 = CPyObject_GetAttr(r7, r10)
+    dec_ref r7
+    if is_error(r11) goto L44 (error at run:57) else goto L4
+L4:
+    r12 = [r6]
+    r13 = load_address r12
+    r14 = _PyObject_Vectorcall(r11, r13, 1, 0)
+    dec_ref r11
+    if is_error(r14) goto L44 (error at run:57) else goto L5
+L5:
+    r15 = 1
+L6:
+    r16 = comp9.globals :: static
+    r17 = 'time_ns'
+    r18 = CPyDict_GetItem(r16, r17)
+    if is_error(r18) goto L45 (error at run:58) else goto L7
+L7:
+    r19 = _PyObject_Vectorcall(r18, 0, 0, 0)
+    dec_ref r18
+    if is_error(r19) goto L45 (error at run:58) else goto L8
+L8:
+    r20 = 'read'
+    r21 = [r14]
+    r22 = load_address r21
+    r23 = PyObject_VectorcallMethod(r20, r22, 9223372036854775809, 0)
+    if is_error(r23) goto L46 (error at run:59) else goto L9
+L9:
+    dec_ref r14
+    r24 = 'strip'
+    r25 = [r23]
+    r26 = load_address r25
+    r27 = PyObject_VectorcallMethod(r24, r26, 9223372036854775809, 0)
+    if is_error(r27) goto L47 (error at run:59) else goto L10
+L10:
+    dec_ref r23
+    r28 = cast(str, r27)
+    if is_error(r28) goto L48 (error at run:59) else goto L11
+L11:
+    r29 = compact_files(r28)
+    dec_ref r28
+    if is_error(r29) goto L48 (error at run:59) else goto L12
+L12:
+    r30 = calc_checksum(r29)
+    dec_ref r29
+    if is_error(r30) goto L48 (error at run:59) else goto L13
+L13:
+    r31 = builtins :: module
+    r32 = 'print'
+    r33 = CPyObject_GetAttr(r31, r32)
+    if is_error(r33) goto L49 (error at run:59) else goto L14
+L14:
+    r34 = [r30]
+    r35 = load_address r34
+    r36 = _PyObject_Vectorcall(r33, r35, 1, 0)
+    dec_ref r33
+    if is_error(r36) goto L49 (error at run:59) else goto L50
+L15:
+    dec_ref r30
+    r37 = comp9.globals :: static
+    r38 = 'time_ns'
+    r39 = CPyDict_GetItem(r37, r38)
+    if is_error(r39) goto L48 (error at run:60) else goto L16
+L16:
+    r40 = _PyObject_Vectorcall(r39, 0, 0, 0)
+    dec_ref r39
+    if is_error(r40) goto L48 (error at run:60) else goto L17
+L17:
+    r41 = PyNumber_Subtract(r40, r19)
+    dec_ref r40
+    dec_ref r19
+    if is_error(r41) goto L21 (error at run:60) else goto L18
+L18:
+    r42 = builtins :: module
+    r43 = 'print'
+    r44 = CPyObject_GetAttr(r42, r43)
+    if is_error(r44) goto L51 (error at run:60) else goto L19
+L19:
+    r45 = [r41]
+    r46 = load_address r45
+    r47 = _PyObject_Vectorcall(r44, r46, 1, 0)
+    dec_ref r44
+    if is_error(r47) goto L51 (error at run:60) else goto L52
+L20:
+    dec_ref r41
+    goto L29
+L21:
+    r48 = CPy_CatchError()
+    r15 = 0
+    r49 = CPy_GetExcInfo()
+    r50 = r49[0]
+    r51 = r49[1]
+    r52 = r49[2]
+    dec_ref r49
+    r53 = [r6, r50, r51, r52]
+    r54 = load_address r53
+    r55 = _PyObject_Vectorcall(r9, r54, 4, 0)
+    if is_error(r55) goto L53 (error at run:57) else goto L22
+L22:
+    dec_ref r50
+    dec_ref r51
+    dec_ref r52
+    r56 = PyObject_IsTrue(r55)
+    dec_ref r55
+    r57 = r56 >= 0 :: signed
+    if not r57 goto L27 (error at run:57) else goto L23 :: bool
+L23:
+    r58 = truncate r56: i32 to builtins.bool
+    if r58 goto L26 else goto L24 :: bool
+L24:
+    CPy_Reraise()
+    if not 0 goto L27 else goto L54 :: bool
+L25:
+    unreachable
+L26:
+    CPy_RestoreExcInfo(r48)
+    dec_ref r48
+    goto L29
+L27:
+    CPy_RestoreExcInfo(r48)
+    dec_ref r48
+    r59 = CPy_KeepPropagating()
+    if not r59 goto L30 else goto L55 :: bool
+L28:
+    unreachable
+L29:
+    r60 = <error> :: tuple[object, object, object]
+    r61 = r60
+    goto L31
+L30:
+    r62 = CPy_CatchError()
+    r61 = r62
+L31:
+    if r15 goto L32 else goto L56 :: bool
+L32:
+    r63 = load_address _Py_NoneStruct
+    r64 = [r6, r63, r63, r63]
+    r65 = load_address r64
+    r66 = _PyObject_Vectorcall(r9, r65, 4, 0)
+    dec_ref r9
+    if is_error(r66) goto L57 (error at run:57) else goto L58
+L33:
+    dec_ref r6
+L34:
+    if is_error(r61) goto L41 else goto L35
+L35:
+    CPy_Reraise()
+    if not 0 goto L37 else goto L59 :: bool
+L36:
+    unreachable
+L37:
+    if is_error(r61) goto L39 else goto L38
+L38:
+    CPy_RestoreExcInfo(r61)
+    xdec_ref r61
+L39:
+    r67 = CPy_KeepPropagating()
+    if not r67 goto L42 else goto L40 :: bool
+L40:
+    unreachable
+L41:
+    r68 = box(None, 1)
+    inc_ref r68
+    return r68
+L42:
+    r69 = <error> :: object
+    return r69
+L43:
+    dec_ref r6
+    dec_ref r7
+    goto L42
+L44:
+    dec_ref r6
+    dec_ref r9
+    goto L42
+L45:
+    dec_ref r14
+    goto L21
+L46:
+    dec_ref r14
+    dec_ref r19
+    goto L21
+L47:
+    dec_ref r19
+    dec_ref r23
+    goto L21
+L48:
+    dec_ref r19
+    goto L21
+L49:
+    dec_ref r19
+    dec_ref r30
+    goto L21
+L50:
+    dec_ref r36
+    goto L15
+L51:
+    dec_ref r41
+    goto L21
+L52:
+    dec_ref r47
+    goto L20
+L53:
+    dec_ref r50
+    dec_ref r51
+    dec_ref r52
+    goto L27
+L54:
+    dec_ref r6
+    dec_ref r9
+    dec_ref r48
+    goto L25
+L55:
+    dec_ref r6
+    dec_ref r9
+    goto L28
+L56:
+    dec_ref r6
+    dec_ref r9
+    goto L34
+L57:
+    dec_ref r6
+    goto L37
+L58:
+    dec_ref r66
+    goto L33
+L59:
+    xdec_ref r61
+    goto L36
+
+def __top_level__():
+    r0, r1 :: object
+    r2 :: bit
+    r3 :: str
+    r4, r5 :: object
+    r6 :: str
+    r7 :: dict
+    r8, r9 :: object
+    r10 :: str
+    r11 :: dict
+    r12, r13 :: object
+    r14 :: str
+    r15 :: dict
+    r16, r17 :: object
+    r18 :: str
+    r19 :: dict
+    r20, r21 :: object
+    r22 :: str
+    r23 :: dict
+    r24 :: object
+    r25 :: None
+L0:
+    r0 = builtins :: module
+    r1 = load_address _Py_NoneStruct
+    r2 = r0 != r1
+    if r2 goto L3 else goto L1 :: bool
+L1:
+    r3 = 'builtins'
+    r4 = PyImport_Import(r3)
+    if is_error(r4) goto L9 (error at <module>:-1) else goto L2
+L2:
+    builtins = r4 :: module
+    dec_ref r4
+L3:
+    r5 = ('bisect',)
+    r6 = 'bisect'
+    r7 = comp9.globals :: static
+    r8 = CPyImport_ImportFromMany(r6, r5, r5, r7)
+    if is_error(r8) goto L9 (error at <module>:1) else goto L4
+L4:
+    bisect = r8 :: module
+    dec_ref r8
+    r9 = ('accumulate', 'repeat', 'batched')
+    r10 = 'itertools'
+    r11 = comp9.globals :: static
+    r12 = CPyImport_ImportFromMany(r10, r9, r9, r11)
+    if is_error(r12) goto L9 (error at <module>:2) else goto L5
+L5:
+    itertools = r12 :: module
+    dec_ref r12
+    r13 = ('mul',)
+    r14 = 'operator'
+    r15 = comp9.globals :: static
+    r16 = CPyImport_ImportFromMany(r14, r13, r13, r15)
+    if is_error(r16) goto L9 (error at <module>:3) else goto L6
+L6:
+    operator = r16 :: module
+    dec_ref r16
+    r17 = ('Iterable',)
+    r18 = 'typing'
+    r19 = comp9.globals :: static
+    r20 = CPyImport_ImportFromMany(r18, r17, r17, r19)
+    if is_error(r20) goto L9 (error at <module>:4) else goto L7
+L7:
+    typing = r20 :: module
+    dec_ref r20
+    r21 = ('time_ns',)
+    r22 = 'time'
+    r23 = comp9.globals :: static
+    r24 = CPyImport_ImportFromMany(r22, r21, r21, r23)
+    if is_error(r24) goto L9 (error at <module>:5) else goto L8
+L8:
+    time = r24 :: module
+    dec_ref r24
+    return 1
+L9:
+    r25 = <error> :: None
+    return r25
