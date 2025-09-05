@@ -2,3 +2,5 @@ input*.txt
 a.out
 a.out.dSYM/
 .DS_Store
+__pycache__/
+.mypy_cache/
