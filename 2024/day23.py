@@ -54,7 +54,6 @@ td-yn""".splitlines()
 
 
 graph = real_data()
-count = 0
 gl = len(graph)
 
 
