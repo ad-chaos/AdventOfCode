@@ -10,7 +10,7 @@ def get_neighs(i, j):
     for dx in (-1, 0, 1):
         for dy in (-1, 0, 1):
             nx, ny = i + dx, j + dy
-            if 0 <= i + dx < x and 0 <= j + dy < y:
+            if 0 <= nx < x and 0 <= ny < y:
                 neighs += parsed[nx][ny] == "@"
     return neighs
 
